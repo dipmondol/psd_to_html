@@ -1,0 +1,127 @@
+/* Tablet Layout */
+
+@media only screen and (min-width:200px) and (max-width:991px){
+    .social_area{
+        max-width: 460px;
+        padding-top: 14px;
+    }
+    .inner_menu{
+        background: none;
+        min-height: auto;
+    }
+    .inner_menu::after{
+        display: none;
+    }
+    .mean-container .mean-nav {
+       
+        margin-top: 0;
+        width: 95%;
+    }
+    #slider_area {
+        margin-top: 0;
+    }
+    .inner_intro h1 {
+        font-size: 55px;
+       
+    }
+    .about_area img {
+        width: 94%;
+    }
+    .child_service .service_text {
+        width: 70%;
+       
+    }
+   
+    .child_service .service_image {
+       
+        margin-top: 8px;
+    }
+}
+
+/* Mobile Layout */
+
+@media only screen and (min-width:200px) and (max-width:480px){
+    .mini_menu {
+       
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mini_menu ul {
+       
+        text-align: center;
+    }
+    .social_area ul {
+        
+        text-align: center;
+    }
+    .search_area  {
+        float: none;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .logo_area {
+        float: none;
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .social_area ul li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .search_area form {
+        background: #fff;
+        border-radius: 25px;
+        float: left;
+        padding: 2%;
+        max-width: 229px;
+        width: 98%;
+        margin-left: 5px;
+    }
+    .slider_caption h1 {
+        font-size: 55px;
+      
+    }
+    .inner_intro h1 {
+        font-size: 33px;
+    }
+    .inner_intro {
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+    #work_area {
+        background-color: #f2f2f2;
+        padding: 10px 0;
+    }
+  
+    .child_work {
+        width: 98%;
+        float: left;
+        margin: 0 1% 2px;
+    }
+    .child_service {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 17px;
+    }
+    .child_service .service_text {
+        width: 75%;
+        margin-top: 5px;
+    }
+    .child_footer {
+        
+        width: 96%;
+       
+    }
+    .left_copyright {
+        float: left;
+        width: 100%;
+    }
+    .right_copyright {
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+
+}
